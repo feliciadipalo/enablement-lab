@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
   basePath: "/enablement-lab",
+  assetPrefix: "/enablement-lab/",
   trailingSlash: true,
 };
 
