@@ -30,7 +30,7 @@ export const projects: Project[] = [
     evidence:["Anonymised retention analysis","Playbook and workshop deck","Voiceover script and video prototype","Manager coaching plan"],
     outcomeTitle:"The analysis became a rollout-ready commercial play.", outcomes:[{value:"3-month window",label:"Highest-propensity return period identified"},{value:"Live + async",label:"Delivery adapted for distributed teams"},{value:"End-to-end",label:"Follow-up, coaching and measurement connected"}],
     note:"The intervention is built and prepared for rollout. Commercial impact will be reported only after sufficient post-launch data is available.", visualTitle:"From insight to scalable delivery", visualCaption:"The case study will show the analysis, playbook, workshop structure and a short preview of the asynchronous version.", evidenceLabel:"Programme scope"
-    ,visuals:[{src:"/evidence/repeat-play-curve.webp",alt:"Anonymised analysis showing growth in repeat-led commercial value",caption:"Retention analysis reframed the opportunity from continuous acquisition to systematic post-sale ownership."}]
+    ,visuals:[{src:"/enablement-lab/evidence/repeat-play-curve.webp",alt:"Anonymised analysis showing growth in repeat-led commercial value",caption:"Retention analysis reframed the opportunity from continuous acquisition to systematic post-sale ownership."}]
   },
   {
     slug:"training-system", tag:"Learning transformation", title:"Multi-Format Commercial Training System", state:"Delivered and iterated", stateClass:"measured",
@@ -88,8 +88,8 @@ export const projects: Project[] = [
     outcomeTitle:"Reading the regional signal correctly changed where effort went.", outcomes:[{value:"+353%",label:"EU listings per month, post-launch (5.0 → 22.7)"},{value:"+330%",label:"EU net revenue per month (£11.1K → £47.8K)"},{value:"27 markets",label:"Screened against a reliability floor to separate signal from noise"}],
     note:"EU figures are an early, directional read three months post-launch, on a smaller base than the combined UK + EU view — treated as a regional signal, not a settled result. The market screen deliberately discounts any market below a 100-enquiry reliability floor, so apparent high performers on tiny samples are read as noise, not wins. Employee-level rankings and identifiable operational data are excluded.", visualTitle:"From dashboard to coaching decision", visualCaption:"Anonymised funnel and segmentation views with captions explaining the decision each analysis enabled. The market-conversion view separates reliable gaps from small-sample noise using an explicit reliability floor.", evidenceLabel:"Capability evidence"
     ,visuals:[
-      {src:"/evidence/analytics-market-conversion.webp",alt:"Market conversion scatter plot with a 100-enquiry reliability floor",caption:"Volume and conversion were separated so leaders could distinguish reliable gaps from small-sample noise. Markets below the reliability floor are read as noise, not performance."},
-      {src:"/evidence/analytics-market-profile.webp",alt:"Anonymised regional revenue comparison",caption:"Regional profiles connected net performance with value per transaction instead of relying on volume alone."}
+      {src:"/enablement-lab/evidence/analytics-market-conversion.webp",alt:"Market conversion scatter plot with a 100-enquiry reliability floor",caption:"Volume and conversion were separated so leaders could distinguish reliable gaps from small-sample noise. Markets below the reliability floor are read as noise, not performance."},
+      {src:"/enablement-lab/evidence/analytics-market-profile.webp",alt:"Anonymised regional revenue comparison",caption:"Regional profiles connected net performance with value per transaction instead of relying on volume alone."}
     ]
   },
   {
@@ -114,8 +114,8 @@ export const projects: Project[] = [
     outcomeTitle:"A complete, coachable learning journey is ready for rollout.", outcomes:[{value:"6 moves",label:"One observable conversation process"},{value:"Practice + rubric",label:"Application connected to coaching"},{value:"Complete module",label:"Production finished; measurement pending"}],
     note:"The module is built. Rollout, adoption and commercial impact will be added only when verified.", visualTitle:"Framework to application", visualCaption:"The final portfolio image will pair the course opening with the full learning architecture, after browser and account details are removed.", evidenceLabel:"Build evidence"
     ,visuals:[
-      {src:"/evidence/anchor-opening.webp",alt:"Opening screen of the ANCHOR reserve conversation course",caption:"The finished course gives the framework a clear identity and an immediate practical purpose."},
-      {src:"/evidence/anchor-architecture.webp",alt:"Course architecture showing the six ANCHOR stages and capstone",caption:"The learning path moves from foundations through six observable conversation moves to recap, rubric, job aid and capstone."}
+      {src:"/enablement-lab/evidence/anchor-opening.webp",alt:"Opening screen of the ANCHOR reserve conversation course",caption:"The finished course gives the framework a clear identity and an immediate practical purpose."},
+      {src:"/enablement-lab/evidence/anchor-architecture.webp",alt:"Course architecture showing the six ANCHOR stages and capstone",caption:"The learning path moves from foundations through six observable conversation moves to recap, rubric, job aid and capstone."}
     ]
   }
 ];
