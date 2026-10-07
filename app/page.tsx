@@ -8,7 +8,7 @@ const outcomes = [
 ];
 
 export default function Home() {
-  const featuredSlugs = ["outbound-growth", "training-system", "enablement-analytics", "enablement-operating-system"];
+  const featuredSlugs = ["outbound-growth", "managed-partner-positioning", "onboarding-system", "enablement-analytics"];
   const featured = featuredSlugs.map(slug => projects.find(p => p.slug === slug)!).filter(Boolean);
   const additional = projects.filter(p => !featuredSlugs.includes(p.slug));
   return <main>
@@ -18,10 +18,10 @@ export default function Home() {
     </header>
 
     <section className="hero shell">
-      <p className="eyebrow">Commercial Enablement · Revenue Productivity · AI</p>
+      <p className="eyebrow">Go-to-Market · Revenue Enablement · AI</p>
       <h1>I turn commercial priorities into measurable frontline performance.</h1>
       <div className="hero-bottom">
-        <p className="lede">I use performance data, learning design and frontline insight to improve execution, productivity and commercial outcomes across multi-market teams.</p>
+        <p className="lede">I turn products, services and data into positioning, sales plays and tools that sellers use, then measure what changes in pipeline and revenue across multi-market teams.</p>
         <a className="text-link" href="#work">Explore selected work <span>↓</span></a>
       </div>
     </section>
@@ -35,9 +35,10 @@ export default function Home() {
     <section className="ai-band" id="ai"><div className="shell">
       <div className="section-intro light"><p className="section-label">AI in enablement</p><h2>Bringing the capability the incumbents don&rsquo;t have yet.</h2></div>
       <div className="ai-grid">
-        <article><span>01</span><h3>Objection-handling tool on live call data</h3><p>Built a gamified objection-handling tool using generative AI on real call recordings. Secured executive and IT sponsorship to scale it; a regional lead proposed it as a mandatory onboarding gate.</p></article>
-        <article><span>02</span><h3>AI-authored microlearning</h3><p>Module build time cut from days to under an hour — the difference between a quarterly content calendar and an enablement function that responds in the moment.</p></article>
-        <article><span>03</span><h3>Analysis, not decoration</h3><p>Hex and Snowflake used to separate signal from noise: reliability floors, cohort context and behaviour trends that end in a decision, not a dashboard.</p></article>
+        <article><span>01</span><h3>Objection-handling simulator on real calls</h3><p>A gamified AI trainer built from six years of call transcripts, with customer personas for every region and both product lines. Approved for onboarding as a daily 20-minute practice.</p></article>
+        <article><span>02</span><h3>In-product guidance for customers</h3><p>Prototyped a seller-only &ldquo;Tips for answering&rdquo; button in the auction comment section, with question types and reply templates, and pitched it to sales leadership as a product feature.</p></article>
+        <article><span>03</span><h3>AI-authored microlearning</h3><p>Module build time cut from days to under an hour — the difference between a quarterly content calendar and an enablement function that responds in the moment.</p></article>
+        <article><span>04</span><h3>Analysis, not decoration</h3><p>Hex and Snowflake used to separate signal from noise: reliability floors, cohort context and behaviour trends that end in a decision, not a dashboard.</p></article>
       </div>
     </div></section>
 
@@ -75,7 +76,7 @@ export default function Home() {
 
     <section className="about shell" id="about"><p className="section-label">About</p><div>
       <h2>Commercial strategy built for frontline execution.</h2>
-      <p>I am a London-based Commercial Enablement professional working across global, multi-market teams. My background spans sales, learning design, analytics and research.</p>
+      <p>I am a London-based go-to-market and enablement professional working across global, multi-market teams. My background spans B2B sales, learning design, analytics and research.</p>
       <p>This portfolio presents anonymised work. Company names, people, dates and commercially sensitive details have been removed while preserving the decision logic and evidence.</p>
     </div></section>
     <footer className="shell"><p>Felicia Di Palo</p><p>London, UK</p></footer>

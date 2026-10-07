@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Felicia Di Palo — Commercial Enablement",
+  title: "Felicia Di Palo — Go-to-Market & Enablement",
   description: "Commercial Enablement, Revenue Productivity and AI systems by Felicia Di Palo.",
   icons: {
     icon: "/favicon.svg",

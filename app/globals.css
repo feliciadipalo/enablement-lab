@@ -102,11 +102,12 @@ h1 { max-width: 1040px; margin: 30px 0 80px; font-size: clamp(55px, 7vw, 98px); 
 .practice-grid h3 { margin-top: 80px; }
 .practice-grid p { color: #b8c7c1; line-height: 1.65; font-size: 14px; }
 .ai-band { padding: 120px 0; background: var(--green); color: var(--white); }
-.ai-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin-top: 70px; background: rgba(255,255,255,.2); }
+.ai-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 70px; background: rgba(255,255,255,.2); }
 .ai-grid article { min-height: 300px; padding: 32px; background: var(--green); display: flex; flex-direction: column; }
 .ai-grid article > span { color: var(--acid); font-family: var(--font-geist-mono); font-size: 12px; }
 .ai-grid h3 { margin: 70px 0 16px; font-size: 24px; letter-spacing: -.03em; font-weight: 570; }
 .ai-grid p { color: #b8c7c1; line-height: 1.65; font-size: 14px; }
+@media (max-width: 1100px) { .ai-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .ai-band { padding: 90px 0; } .ai-grid { grid-template-columns: 1fr; } .ai-grid article { min-height: auto; } .ai-grid h3 { margin-top: 40px; } }
 
 .about { padding: 140px 0; display: grid; grid-template-columns: 1fr 2fr; gap: 30px; }
