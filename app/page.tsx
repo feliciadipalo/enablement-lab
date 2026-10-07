@@ -2,9 +2,9 @@ import Link from "next/link";
 import { projects } from "./work/projects";
 
 const outcomes = [
-  { value: "+177%", label: "Listings per month" },
-  { value: "+164%", label: "Net revenue per month" },
-  { value: "−10%", label: "Call volume — more output, less activity" },
+  { value: "+57%", label: "Outbound revenue per week" },
+  { value: "+89%", label: "Outbound listings per week" },
+  { value: "6.0%", label: "Enquiry-to-listing conversion, up from 3.4%" },
 ];
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
     <section className="outcomes shell">
       <p className="section-label">Selected outcomes</p>
       <div className="outcome-grid">{outcomes.map(x => <article key={x.label}><strong>{x.value}</strong><span>{x.label}</span></article>)}</div>
-      <p className="note">Early three-month signal from a targeted outbound programme (UK + EU, normalised monthly run rates). Listings and revenue more than doubled while call volume fell — the gain came from better-targeted calling, not more of it. Directional, not a settled result.</p>
+      <p className="note">Outbound figures: first month after launch, outbound cohort, weekly run rate on CRM data. Conversion: one product line, before and after the enquiry play was rebuilt for it. Stated as measured results for a defined period, not as settled long-term trends.</p>
     </section>
 
     <section className="ai-band" id="ai"><div className="shell">
